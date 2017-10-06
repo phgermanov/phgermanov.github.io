@@ -1,12 +1,52 @@
 <html>
 <head>
-	<title>Happy Birthday</title>
+	<title>Happy Birthday Mollie Goode</title>
+	<style>
+		p.speech {
+			position: relative;
+			width: 300px;
+			height: 200px;
+			text-align: center;
+			line-height: 200px;
+			background-color: #fff;
+			border: 8px solid #666;
+			-webkit-border-radius: 30px;
+			-moz-border-radius: 30px;
+			border-radius: 30px;
+			-webkit-box-shadow: 2px 2px 4px #888;
+			-moz-box-shadow: 2px 2px 4px #888;
+			box-shadow: 2px 2px 4px #888;
+		}
+		p.speech:before {
+			content: ' ';
+			position: absolute;
+			width: 0;
+			height: 0;
+			left: 30px;
+			top: 200px;
+			border: 25px solid;
+			border-color: #666 transparent transparent #666;
+		}
+		p.speech:after {
+			content: ' ';
+			position: absolute;
+			width: 0;
+			height: 0;
+			left: 38px;
+			top: 200px;
+			border: 15px solid;
+			border-color: #fff transparent transparent #fff;
+		}
+	</style>
 </head>
-<body style="text-align: center">
-	<h1>Happy Birthday Mollie Goode</h1>
-
-	<img src="https://scontent-lhr3-1.xx.fbcdn.net/v/t34.0-12/17554997_1776788582346913_1595859501_n.jpg?oh=169621bf2ea1d7f349ec2d126bad9ddd&oe=59D99866"
-		 alt=""
-		 class="src">
+<body style="text-align: center; background-color: pink">
+	<div style="width: 55%; margin-left: 25%">
+		<img style="float: left; width: 65%" src="https://scontent-lhr3-1.xx.fbcdn.net/v/t34.0-12/17554997_1776788582346913_1595859501_n.jpg?oh=169621bf2ea1d7f349ec2d126bad9ddd&oe=59D99866"
+			 alt=""
+			 class="src">
+		<p style="margin-top: 15%; float: right; width: 30%" class="speech">
+			Happy Birthday Mollie Goode
+		</p>
+	</div>
 </body>
 </html>
